@@ -36,6 +36,9 @@ gem 'puma', '~> 2.11.3'
 # Use Kaminari for pagination
 gem 'kaminari', '~> 0.16.3'
 
+# Use Faker for seeding
+gem 'faker', '~> 1.4.3'
+
 group :production do
   # Deploy to Heroku
   gem 'rails_12factor', '~> 0.0.3'
